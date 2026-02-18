@@ -31,7 +31,7 @@ for i, company in enumerate(companies, start=1):
 with open(README_FILE, "w", encoding="utf-8") as readme:
     readme.write("# Nepal AI/ML Companies\n\n")
     readme.write(table)
-    readme.write(">[!IMPORTANT]This repo uses Github Actions to automatically update `README.md`. Just make changes on `companies.csv` and push the changes.")
+    readme.write(">\n\n#### This repo uses Github Actions to automatically update `README.md`. Just make changes on `companies.csv` and push the changes.")
 
 
 print("README updated successfully!")
